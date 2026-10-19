@@ -643,3 +643,10 @@ If you modify this software and make it available over a network (e.g. as a web 
 [⬆ Back to Top](#-animator--3d-model-animation-studio)
 
 </div>
+
+
+## AI handoff, mobile workflow, and Blender bridge
+
+For handing the project to Grok, ChatGPT, Claude, or another coding agent, start with [`AI_HANDOFF.md`](AI_HANDOFF.md) and [`docs/AI_HANDOFF_GROK.md`](docs/AI_HANDOFF_GROK.md). The phone-oriented workflow is documented in [`docs/MOBILE_WORKFLOW.md`](docs/MOBILE_WORKFLOW.md).
+
+A dependency-free Blender bridge is provided at [`blender_addon/animator_bridge.py`](blender_addon/animator_bridge.py). It imports and exports the portable JSON clip format described in [`docs/BLENDER_BRIDGE.md`](docs/BLENDER_BRIDGE.md), with a sample at [`examples/animation_clip.json`](examples/animation_clip.json).

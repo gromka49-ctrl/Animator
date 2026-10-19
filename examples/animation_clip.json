@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "name": "sample_pose_transition",
+  "duration": 1.5,
+  "fps": 30,
+  "loop": false,
+  "tracks": [
+    {
+      "boneName": "mixamorig:Hips",
+      "property": "position",
+      "keyframes": [
+        { "time": 0, "value": [0, 0, 0] },
+        { "time": 0.75, "value": [0, 0.04, 0] },
+        { "time": 1.5, "value": [0, 0, 0] }
+      ]
+    },
+    {
+      "boneName": "mixamorig:Spine",
+      "property": "quaternion",
+      "keyframes": [
+        { "time": 0, "value": [0, 0, 0, 1] },
+        { "time": 0.75, "value": [0.02, 0, 0, 0.9998] },
+        { "time": 1.5, "value": [0, 0, 0, 1] }
+      ]
+    }
+  ]
+}
